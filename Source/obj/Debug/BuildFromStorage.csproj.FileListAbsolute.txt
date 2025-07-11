@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BuildFromStorage\Source\obj\Debug\BuildFromStorage.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BuildFromStorage\Source\obj\Debug\BuildFromStorage.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BuildFromStorage\Assemblies\BuildFromStorage.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BuildFromStorage\Source\obj\Debug\BuildFromStorage.dll
