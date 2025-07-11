@@ -4,7 +4,6 @@
   <description>Allows colonists to use minified items from storage when constructing buildings, furniture, and other structures. Instead of creating new items from raw materials, colonists will prioritize using existing minified items before crafting new ones. This mod helps reduce waste and makes construction more efficient by utilizing stored furniture and equipment.</description>
   <packageId>buildfromstorage.programmerlily.com</packageId>
   <supportedVersions>
-    <li>1.5</li>
     <li>1.6</li>
   </supportedVersions>
   <loadAfter>

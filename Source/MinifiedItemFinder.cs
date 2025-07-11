@@ -45,11 +45,15 @@ namespace BuildFromStorage
         }
 
         /// <summary>
-        /// Checks if a minified thing is in accessible storage
+        /// Checks if a minified thing is in accessible storage and not already assigned to an install blueprint
         /// </summary>
         private static bool IsInAccessibleStorage(MinifiedThing minified, Map map)
         {
             if (!minified.Spawned)
+                return false;
+
+            // Check if this minified item already has an install blueprint assigned
+            if (RimWorld.InstallBlueprintUtility.ExistingBlueprintFor(minified) != null)
                 return false;
 
             // Check if it's in a storage building or stockpile zone
