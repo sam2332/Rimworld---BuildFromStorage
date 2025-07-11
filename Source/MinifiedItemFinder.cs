@@ -20,7 +20,7 @@ namespace BuildFromStorage
                 return null;
 
             // Search through all minified things on the map
-            var allMinifiedThings = map.listerThings.ThingsOfDef(ThingDefOf.MinifiedThing)
+            var allMinifiedThings = map.listerThings.ThingsMatching(ThingRequest.ForGroup(ThingRequestGroup.MinifiedThing))
                 .Cast<MinifiedThing>()
                 .Where(m => m != null && m.InnerThing != null);
 
@@ -81,7 +81,7 @@ namespace BuildFromStorage
             if (map == null || targetDef == null)
                 yield break;
 
-            var allMinifiedThings = map.listerThings.ThingsOfDef(ThingDefOf.MinifiedThing)
+            var allMinifiedThings = map.listerThings.ThingsMatching(ThingRequest.ForGroup(ThingRequestGroup.MinifiedThing))
                 .Cast<MinifiedThing>()
                 .Where(m => m != null && m.InnerThing != null);
 
