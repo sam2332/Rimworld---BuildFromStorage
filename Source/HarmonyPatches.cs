@@ -146,14 +146,14 @@ namespace BuildFromStorage
                     GUI.DrawTexture(rect, BaseContent.WhiteTex);
                     GUI.color = Color.white;
                     
-                    var labelText = $"Available in storage: {availableCount}";
+                    var labelText = "Availability".Translate(availableCount);
                     Widgets.Label(rect, labelText);
                     curY += 29f;
                     
                     // Add tooltip explaining the feature
                     if (Mouse.IsOver(rect))
                     {
-                        TooltipHandler.TipRegion(rect, "BuildFromStorage will automatically use minified items from storage instead of requiring raw materials for construction.");
+                        TooltipHandler.TipRegion(rect, "AvailabilityTooltip".Translate());
                     }
                 }
             }
