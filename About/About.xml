@@ -1,13 +1,9 @@
 <ModMetaData>
   <name>[PL] Build From Storage</name>
   <author>Programmer-Lily</author>
-  <description>Allows colonists to use minified items from storage when constructing buildings,
-   furniture, and other structures.
-   Instead of creating new items from raw materials, colonists will prioritize using existing minified 
-   items before crafting new ones. This mod helps reduce waste and makes construction more efficient 
-   by utilizing stored furniture and equipment.
-  French translations by <a href="https://github.com/axoroll7">Axoroll7</a>4
-  </description>
+  <description>Allows colonists to use minified items from storage when constructing buildings, furniture, and other structures. Instead of creating new items from raw materials, colonists will prioritize using existing minified items before crafting new ones. This mod helps reduce waste and makes construction more efficient by utilizing stored furniture and equipment.
+
+French translations by Axoroll7</description>
   <packageId>buildfromstorage.programmerlily.com</packageId>
   <supportedVersions>
     <li>1.6</li>
